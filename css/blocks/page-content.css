@@ -1,0 +1,35 @@
+.page-content {
+    padding: 0 0 100px;
+}
+
+.page-content__title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 46px;
+    margin: 0 0 60px 0;
+}
+
+.steps-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.steps-list__item {
+    list-style: none;
+    width: calc(33.33% - (60px / 3));
+    gap: 16px;
+
+}
+
+.steps-list__title {
+    padding: 0;
+    margin: 0;
+}
+
+.steps-list__text {
+    padding: 0;
+    margin: 0;
+}
