@@ -1,0 +1,12 @@
+.about-app {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+
+}
+
+.about-app__text, .about-app__title {
+    padding: 0;
+    margin: 0;
+}

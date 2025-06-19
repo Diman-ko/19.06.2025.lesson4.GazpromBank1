@@ -1,0 +1,26 @@
+
+.steps-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.steps-list__item {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: calc(33.33% - (60px / 3));
+    gap: 16px;
+    padding: 0 20px;
+}
+
+.steps-list__title, .steps-list__text, .steps-list__count{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
